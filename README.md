@@ -206,7 +206,7 @@ This design ensures:
 
 ##  Screenshots
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0862ef47-f81f-49e8-8e21-b722a73ce0be" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/0f3239bc-e8f2-4370-ab05-36e4d2f8b9b1" />
 
 ---
 
