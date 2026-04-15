@@ -56,14 +56,12 @@ public class EmergencyController {
             System.out.println("Community emergency → Notifying relevant users");
         }
 
-        // ⏱️ WAIT TIME BASED ON PRIORITY
         int waitTime = switch (e.getPriority()) {
             case "HIGH" -> 30000;
             case "MEDIUM" -> 60000;
             default -> 90000;
         };
 
-        // 🔥 ESCALATION THREAD
         new Thread(() -> {
             try {
                 Thread.sleep(waitTime);
@@ -90,7 +88,6 @@ public class EmergencyController {
         return saved;
     }
 
-    // 🔥 ACCEPT
     @PutMapping("/{id}/accept")
     public Emergency accept(@PathVariable Long id) {
 
@@ -104,7 +101,6 @@ public class EmergencyController {
         return repo.save(e);
     }
 
-    // 🔥 RESOLVE
     @PutMapping("/{id}/resolve")
     public Emergency resolve(@PathVariable Long id) {
 
