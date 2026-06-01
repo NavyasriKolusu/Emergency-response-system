@@ -1,0 +1,182 @@
+body {
+  background: #f8fafc;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 26px;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.header p {
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* STATS SECTION */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 22px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+/* ACTION BUTTONS */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.accept {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.resolve {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background: #cbd5f5;
+  cursor: not-allowed;
+}
+
+/* TABLE HEADER (WITH FILTER) */
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FILTER DROPDOWN */
+.filter {
+  width: 150px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  text-align: left;
+  font-size: 13px;
+  color: #64748b;
+  padding-bottom: 10px;
+}
+
+td {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* STATUS BADGES */
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status.pending {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.status.accepted {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status.resolved {
+  background: #dcfce7;
+  color: #166534;
+}
