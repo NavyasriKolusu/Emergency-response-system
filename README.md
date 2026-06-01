@@ -248,3 +248,8 @@ npm start
 This project focuses on implementing a reliable emergency handling system using structured workflow, priority-based logic, and automated escalation. By combining these elements, the system ensures that emergency requests are processed efficiently and are not ignored.
 
 The design emphasizes both functionality and real-world applicability.
+
+
+##  Live Demo
+Frontend: https://emergency-response-system-lyxz.vercel.app
+Backend: https://emergency-response-system-7.onrender.com
