@@ -1,4 +1,4 @@
-package main.java.com.example.emergency.config;
+package com.example.emergency.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
